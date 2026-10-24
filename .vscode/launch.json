@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "caretta: Java サンプルを解析",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\caretta\\caretta.py",
+            "args": [
+                "Sample.java",
+                "--output",
+                "documentation.md"
+            ],
+            "cwd": "${workspaceFolder}\\run_dir",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
